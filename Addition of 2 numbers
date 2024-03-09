@@ -1,0 +1,13 @@
+function add(a , b)
+{
+  return a+b;
+
+}
+function reverse(string)
+{
+  return string.split("").reverse().join("");
+}
+const number1=5;
+const number2=17;
+const sum= add(number1,number2);
+console.log(sum);
